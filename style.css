@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,#004aad,#cb6ce6);
+    height: 50%;
+}
+header{  
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    height: 90px;
+    background:linear-gradient(to right,#004aad,#cb6ce6);    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;   
+}
+.main h1{  
+    font-size: 42px;
+    margin: 10px 50px 0px 40px;
+    background-image:linear-gradient(to right,#080808,#2f03f5) ;
+    -webkit-background-clip: Text;
+    color: transparent;
+    font-family: Magneto;
+}
+.main a{ 
+    font-size: 28px;
+    text-decoration: none;
+    margin: -5px -500px 0px 0px;
+    color: white;
+    font-family: AKbalthom KhmerBasic;
+}
+.btnlogin{
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: aliceblue;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+.slide1{
+    height: 82vh;
+    
+}
+.slide1 h1{
+    font-size: 40px;
+    color: aliceblue;
+    margin: 0px 0px 0px 60px;
+    font-family:AKbalthom KhmerHand;
+}
+.slide1 h2{
+    font-size: 30px;
+    color: aliceblue;
+    margin: 170px 0px 0px 60px;
+    font-family: AKbalthom KhmerHand;
+}
+.slide1 p{
+    margin: 80px 40px;
+    width: 45%;
+    font-size: 18px;
+}
+.mainpic{
+    display: flex;
+    margin: -25% 30px;
+    float: right;
+}
+.slide2{
+    display: flex;
+    padding: 50px 0px 10px 20px;
+    min-height: 10%;
+    overflow-x: auto;   
+}
+.our_service{
+    height: 0px;
+    min-width: 15%; 
+    margin: -50px 0px 0px 45%;  
+}
+.slide2_pic1{
+    display: flex;
+    margin: 40px 0px 0px -55%;
+}
+.pic1{
+    display: flex;
+    width: 353px;
+    height: 500px;
+    margin-left: 70px;
+    background-color: rgb(246, 248, 249);
+    border-radius: 6px;
+}
+.pic1 img{
+    height: 300px;
+    margin-left: 0px;
+    border-radius: 6px;
+}
+.pic1 label{
+    position: relative;
+    margin:90% 2% 0% -98%;   
+}
+.slide2_mid{
+    display: flex;
+    min-width: 100%;
+    min-height: 50%;
+    margin: 30px 0px 0px 10%;  
+}
+.slide2_mid span{
+    font-size: 20px;
+}
+.slide2_mid label{
+    font-size: 20px;
+}
+.about_us{
+    font-size: 30px;
+    min-width: 10%;
+    height: 10%;
+    margin: -75px 0px 0px 45%;      
+}
+
+
+.slide2_mid span{
+    min-width: 50%;
+    height: 70px;
+    margin: 10px 0px 0px -45%; 
+}
+.pic2{
+    align-content: center;
+    margin: 80px 0px 0px -90%;  
+}
+.pic2 img{
+    width: 450px;
+    margin-left: 8%;
+    mix-blend-mode: multiply;
+}
+.pic2 label{
+    margin: 150px 50px 0px 0px;
+    float: right;
+    width: 55%;
+    height: 50%; 
+}
+.slide2_end{
+    display: flex;
+    min-width: 100%;   
+}
+.our_team{
+    font-size: 30px;
+    min-width: 10%;
+    height: 10%;
+    margin: -46px 0px 0px 45%;
+}
+.slide2_pic3{
+    display: flex;
+    margin: 2% 7% 0% -51%;
+    
+}
+.pic3{
+    min-width: 380px;
+    height: 510px;
+    background-color: rgb(138, 240, 240);
+    margin-left: 55px; 
+    border-radius: 8px;  
+}
+.pic3 nav{
+    
+    width: 170px;
+    height: 170px;
+    background-color:blue;
+    border-radius: 50%;
+    margin: 12% 0% 3% 27%;
+    
+}
+.pic3 img{
+    width: 160px;
+    border-radius: 50%;
+    margin: 5px 3% 10% 5px;
+}
+.pic3 label{
+    
+    font-size: 24px;
+    margin: 0px 0px -110px 120px;
+}
+.pic3 span{
+    display: flex;
+    font-size: 20px;
+    margin: 20px 0px 0px 150px;
+}
+.subpic3{
+    display: flex;
+    margin: 110px 0px 0px 55px;
+}
+.social1{
+    margin-left: 30px;
+}
+.social1 img{
+    width: 50px;
+}
+.slide3{
+    display:flex;
+    width: 100%;
+    background-color: rgb(251, 253, 253);
+}
+.slide3_address{
+    display: grid;
+    width: 200px;
+    margin: 55px 0px 0px -115px;
+    padding-bottom: 50px;
+}
+.slide3_address  h1{
+    margin: -30px 0px 0px 150%;
+}
+.slide3_address span{
+    width: 200px;
+    font-size: 20px;
+    margin: 23px 0px 0px 150%;      
+}
+.slide3_info{
+    display: flex;
+    width: 250px;
+    margin: 76px 0px 0px -70px;  
+}
+.slide3_info h1{
+    margin: -50px 0px 0px 210%;
+}
+.slide3_info label{
+    min-width: 100%;
+    font-size: 20px;  
+    margin: 10px 0px 0px -57px;
+}
+.slide3-link{
+    display: grid;
+    height: 0%;  
+}
+.slide3-link h1{
+    margin: 25px 0px 0px 900%;
+}
+.link-sub{
+    display: grid;
+    margin:13px 0px 0px -60px ;
+}
+.link-sub a{
+    font-size: 20px;
+    text-decoration: none;
+    width: 100px;
+    margin: 9px 0px 0px 520%;
+}
+.slide3-subscribe{
+    display: grid;
+    margin:65px 0px 0px -150px ;
+}
+.slide3-subscribe h1{
+    margin: -40px 0px 0px 670%;
+}
+.subscribe-sub{
+    display: grid;
+    width: 150px;
+    font-size: 20px;
+    margin: -70px 0px 0px 671%;
+}
+.email{
+    margin-top: 15px;
+    text-decoration: none;
+}
+.line{
+    width: 120px;
+    height: 2px;
+    border: solid 2px black;
+    margin: -20px 0px 0px 7px;
+}
+.subscribe{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(65, 149, 245);
+    margin: -37px 0px 0px 3px;
+    padding-top: 3px;
+}
+.subscribe a{
+    font-size: 20px;
+    color: black;
+    margin-left: 23px;
+    text-decoration: none;
+    
+}
+.about{
+    width: 100%;
+    padding-top: 40px;
+    background-color: whitesmoke;
+
+}
+
+.about_sub{
+    width: 200px;
+    margin: 0px 45% 20px 45%;
+    font-size: 40px;
+    
+}
+.about span{
+    width: 500px;
+    margin: 20px 20% 0px 20%;
+    font-size: 20px;
+    
+}
+.about_subpic1 img{
+    width: 500px;
+    margin: 0px 0px 0px 70px;
+    mix-blend-mode: multiply;
+}
+.about_subpic1 label{
+    float: right;
+    width: 700px;
+    margin: -370px 10% 0px 50%;
+    font-size: 20px;
+    
+}
+.service{
+    display: flex;
+    padding: 80px 0px 10px 20px;
+    
+    min-height: 10%;
+    background-color: rgb(232, 230, 230);
+}
+.service_sub{
+    height: 0px;
+    min-width: 15%; 
+    margin: -50px 0px 0px 45%;  
+}
+.service_subpic1{
+    display: flex;
+    margin: 40px 0px 0px -55%;
+}
+.service_pic1{
+    display: flex;
+    width: 353px;
+    height: 500px;
+    margin-left: 70px;
+    background-color: rgb(246, 248, 249);
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+.service_pic1 img{
+    height: 300px;
+    margin-left: 0px;
+    border-radius: 6px;
+}
+.service_pic1 label{
+    position: relative;
+    margin:90% 2% 0% -98%;   
+}
+.team{
+    display:flex;
+    width: 100%;
+    padding: 80px 0px 50px 25px;
+    background-color: whitesmoke;
+}
